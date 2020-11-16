@@ -1,0 +1,135 @@
+.header-h1{
+    color: rgb(230, 142, 27);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    /* border-style: solid; */
+    margin:auto;
+    /* border-radius: 15px; */
+ }
+
+
+ .navbar{
+    background-color: rgb(255, 246, 246);
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 15px; 
+    text-align: center;
+    width: auto;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+.container-banner{
+    background-color: #f1f1f1;
+    text-align: center;
+    border-style: hidden;
+    border-radius: 15px;
+    font-family: 'Ruda', sans-serif;
+}
+
+
+
+.container-about{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 18px; 
+    text-align: center;
+}
+
+.container-about>p{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+  
+
+}
+.container-about>h1{
+    font-family: 'Ruda', sans-serif;
+}
+
+.projects{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 18px; 
+    text-align: center;
+    
+}
+.projects h1{
+    font-family: 'Ruda', sans-serif;
+}
+
+.projects p{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+
+.container a{
+    padding-right: 10px;
+    text-decoration: none;
+  
+}
+
+.container p{
+    
+    color: black;
+    font-family: 'Slabo 27px', serif;
+}
+
+.container a:hover
+{
+transform: scale(1.1);
+}
+
+.container-1{
+    color: #942222;
+    text-align: center;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 16px;
+   
+     
+}
+
+.flex-project-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.flex-project-container>div{
+    background-color: #f1f1f1;
+    width: 150px;
+    height: 150px;;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-style: hidden;
+    border-radius: 30px;
+}
+
+.flex-project-container img{
+    margin-top: 27px;
+}
+
+
+.container-1 > a{
+    padding-left: 5px;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+
+
