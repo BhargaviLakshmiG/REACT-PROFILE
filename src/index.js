@@ -10,7 +10,6 @@ import Aboutme from './Components/Aboutme';
 import Portfolio from './Components/Portfolio';
 
 
-import reportWebVitals from './reportWebVitals';
 import Contact from './Components/Contact';
 /*
 ReactDOM.render(
