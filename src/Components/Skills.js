@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import jsimg from '../Components/public/image/javascriptimg2.png'
 import htmlimg from '../Components/public/image/html5logo.jpg'
